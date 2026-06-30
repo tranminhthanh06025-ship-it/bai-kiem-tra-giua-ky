@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cá Nhân</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">My Portfolio</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+                <li><a href="den-keo-quan.html" class="highlight-btn">Xem Bài 19 (Đèn kéo quân)</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-btn">Chế độ tối</button>
+    </header>
+
+    <section class="hero-section">
+        <h1>Xin chào, Chào mừng đến với Portfolio của tôi</h1>
+        <p>Đây là không gian lưu trữ các sản phẩm, đồ án thực hành trong môn học Lập trình Web.</p>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Sản Phẩm Dự Án</h2>
+        <div class="projects-grid">
+            <div class="project-card animate-on-scroll">
+                <h3>Dự án 1</h3>
+                <p>Thiết kế cấu trúc trang Web cơ bản với HTML5 và CSS3.</p>
+            </div>
+            <div class="project-card animate-on-scroll">
+                <h3>Dự án 2</h3>
+                <p>Xây dựng giao diện Landing Page tương thích nhiều thiết bị.</p>
+            </div>
+            <div class="project-card animate-on-scroll">
+                <h3>Dự án 3</h3>
+                <p>Tạo form tương tác và xử lý dữ liệu đầu vào cơ bản.</p>
+            </div>
+            <div class="project-card animate-on-scroll">
+                <h3>Dự án 4</h3>
+                <p>Ứng dụng hiệu ứng chuyển động Animations nâng cao.</p>
+            </div>
+            <div class="project-card animate-on-scroll">
+                <h3>Dự án 5</h3>
+                <p>Tích hợp hệ thống quản lý giao diện Responsive Mobile-first.</p>
+            </div>
+            <div class="project-card animate-on-scroll">
+                <h3>Dự án 6</h3>
+                <p>Lập trình chức năng Dark Mode và điều khiển đối tượng DOM.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Liên Hệ Chuyên Nghiệp</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="email">Địa chỉ Email của bạn:</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Lời nhắn / Yêu cầu gửi đến tôi:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Viết nội dung tin nhắn tại đây..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Gửi thông tin</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
